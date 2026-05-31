@@ -34,7 +34,27 @@ export const metadata: Metadata = typeSafeObjectFromEntries(typeSafeObjectEntrie
     case "focus":
       return [k, {
         name: v.zh,
-        sources: [] as SourceID[],
+        sources: [
+          "tencent",
+          "baidu",
+          "weibo",
+          "zhihu",
+          "thepaper",
+          "ifeng",
+          "zaobao",
+          "cankaoxiaoxi",
+          "wallstreetcn-quick",
+          "cls-telegraph",
+          "jin10",
+          "36kr-quick",
+          "ithome",
+          "sspai",
+          "github-trending-today",
+          "producthunt",
+          "hackernews",
+          "v2ex-share",
+          "bilibili-hot-search",
+        ] as SourceID[],
       }]
     case "hottest":
       return [k, {
