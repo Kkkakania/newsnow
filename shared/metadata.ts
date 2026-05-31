@@ -53,7 +53,6 @@ export const metadata: Metadata = typeSafeObjectFromEntries(typeSafeObjectEntrie
           "producthunt",
           "hackernews",
           "v2ex-share",
-          "bilibili-hot-search",
         ] as SourceID[],
       }]
     case "hottest":
